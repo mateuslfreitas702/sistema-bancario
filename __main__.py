@@ -1,15 +1,11 @@
-from rich import print
-from rich.panel import Panel 
-from rich.console import Console
+import os
+from banco.conta import *
+os.system("cls")
+
+conta1 = Contas(1002,'ml123#',500)
+conta2 = Contas(1201,'ml456@',200)
 
 
-tela = Panel("sei la",style= "bold red",title= "não sei")
-sla = Console()
-#print(tela)
-#sla.print(tela)
-dicionario = {"nome":"mateus","idade":19}
-print(dicionario)
-sla.print(dicionario)
 
 
 
